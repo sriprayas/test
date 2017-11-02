@@ -13,7 +13,7 @@ import soundsystem.CompactDisc;
  * Created by Prayas on 11/1/2017.
  */
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations="CDPlayerConfig.class")
+@ContextConfiguration(classes = CDPlayerConfig.class)
 public class CDPlayerTest {
     @Autowired
     private CompactDisc cd;

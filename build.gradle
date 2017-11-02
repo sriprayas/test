@@ -14,10 +14,10 @@ dependencies {
 }
 
 dependencies {
-    compile 'org.springframework:spring-context:5.0.1.RELEASE'
+    compile 'org.springframework:spring-context:+'
 }
 
 dependencies {
     // https://mvnrepository.com/artifact/org.springframework/spring-test
-    testCompile group: 'org.springframework', name: 'spring-test', version: '2.5'
+    testCompile group: 'org.springframework', name: 'spring-test', version: '+'
 }
