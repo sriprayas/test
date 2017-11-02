@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class RDBurman implements CompactDisc {
     String artist = "RD";
-    @Override
+
     public void play(){
         System.out.println("Artist is -->" + artist);
     }
